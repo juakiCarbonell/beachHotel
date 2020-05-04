@@ -8,7 +8,6 @@ import { withRoomConsumer } from "../context";
 
 const RoomsContainer = ({ context }) => {
   const { loading, sortedRooms, rooms } = context;
-  console.log(rooms)
   if (loading) {
     return <Loading />;
   }
